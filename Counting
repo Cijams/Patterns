@@ -1,0 +1,26 @@
+
+
+# COUNTING OCCURANCES WITH MAP:
+
+for _ in listy:
+  if dict.get(_) is None:
+    dict[_] = 1
+  else:
+    dict[_] = dict[_]+1
+
+
+# Java
+HashMap<int, int> hm = new HashMap<>();
+
+for i : list
+{
+  if hm.get(i) == null
+  {
+    hm.put(i, 1)
+  }
+  else
+  {
+    hm.put(i, hm.get(i)+1)
+   }
+ }
+   
