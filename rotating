@@ -1,0 +1,6 @@
+l = [1, 2, 3, 4, 5]
+n = 2
+# rotate the list two element left
+l[n:] + l[:n]
+
+# from n in, finish. then add the 0 to nth element
