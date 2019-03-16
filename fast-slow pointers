@@ -1,0 +1,8 @@
+Fast slow pointer pattern:
+
+fast = slow = self.head
+        while fast and fast.next:
+                fast = fast.next.next
+                slow = slow.next
+                if X: # [ slow == fast]
+                pass
