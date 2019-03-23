@@ -24,3 +24,7 @@ for i : list
    }
  }
    
+UPDATE FOR JAVA:
+        for(Character c : s.toCharArray()) {
+            if(hm.putIfAbsent(c, 1) != null) // returns null if it adds
+                hm.put(c, hm.get(c)+1);
